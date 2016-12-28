@@ -71,7 +71,16 @@ This was pretty easy setup on ubuntu 14.04 by adding a modeline in .xprofile but
 I had to create a custom edid file. I used a modified version of an edid generator as this version did not work for me out of the box.
 https://github.com/akatrevorjay/edid-generator
 
+Included is the edid.dat file I generated for the raspberry pi. This file should be included in the /boot directory and /boot/config.txt should be updated
+to use the edid.dat file.
+I've also included my config.txt to help as a guide.
 
+
+Unfortunately I have not been able to get the image to completely fill the screen, there is a 1/2 inch border all around. I'm pretty sure this can
+be fixed by tweaking the edid.dat file because I was able to get the image to completely fill the screen by creating a Modeline and including
+it in the .xprofile file under ubuntu 14.04.  Unfortunately the same technique did not work with the pi.
+
+I'm hoping there is someone out there that can get this to work one day.
 
 
 
