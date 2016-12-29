@@ -6,6 +6,7 @@ http://forums.macrumors.com/threads/i-have-decided-to-hack-emacs-crt-to-work-wit
 
 The initialization sequence was captured using a logic analyzer from “https://www.saleae.com/ “.
 Using their capture program you can probably open the saved capture files to see the actual recorded communications.
+I used version 1.2.11 on an ubuntu 14.04 machine.
 
 “emacIvadBoardFullComms.logicdata”
 “emacIvadBoardHalfComms.logicdata”
