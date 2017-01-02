@@ -31,17 +31,18 @@ the i2c lines going to the ivad board (SCK(pin 5) and SDA(pin 6) ) and plugged
 them straight into the arduino.
 
     eMac
-    ---
-1  |o o|  2
-3  |o o|  4
-5  |o o|  6
-7  |o o|  8
-9  |o o| 10
-11 |o o| 12
-13 |o o| 14
-15 |o o| 16
-17 |o o| 18
-    ---
+    -----
+1  | o o |  2
+3  | o o |  4
+5  | o o |  6
+7  | o o |  8
+9   ]o o | 10
+11 | o o | 12
+13 | o o | 14
+15 | o o | 16
+17 | o o | 18
+    -----
+
          DB15F VGA
  ------------------------
  \    5 o o o o o 1     /  
@@ -50,6 +51,7 @@ them straight into the arduino.
     ------------------
 
 
+      Mapping
 
 eMac   DB15F  Signal
 5      15     DDE Clock
