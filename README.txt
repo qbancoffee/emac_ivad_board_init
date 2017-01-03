@@ -30,18 +30,18 @@ I followed the eMac to VGA mapping on this page for the most part but I took
 the i2c lines going to the ivad board (SCK(pin 5) and SDA(pin 6) ) and plugged
 them straight into the arduino.
 
-    eMac
-    -----
-1  | o o |  2
-3  | o o |  4
-5  | o o |  6
-7  | o o |  8
-9   ]o o | 10
-11 | o o | 12
-13 | o o | 14
-15 | o o | 16
-17 | o o | 18
-    -----
+    eMac Logic Board connector pinout
+                 -----
+             1  | o o |  2
+             3  | o o |  4
+             5  | o o |  6
+             7  | o o |  8
+             9   ]o o | 10
+             11 | o o | 12
+             13 | o o | 14
+             15 | o o | 16
+             17 | o o | 18
+                 -----
 
          DB15F VGA
  ------------------------
@@ -57,10 +57,10 @@ eMac   DB15F  Signal
 5      15     DDE Clock
 6      12     DDE Data
 9      13     H Sync
-1      14     V Sync 
-1       3     B video
-1       8     B ground
-1       2     G video
+11     14     V Sync 
+13      3     B video
+14      8     B ground
+15      2     G video
 16      7     G ground
 17      1     R video
 18      6     R Ground
