@@ -1,5 +1,10 @@
 This program uses the arduino i2c lines to initialize the eMac's ivad board so 
-that the CRT can be used without the logic board. This project was inspired by
+that the CRT can be used without the logic board. 
+
+You can get or add more info at the following wiki page.
+https://en.wikibooks.org/w/index.php?title=How_to_modify_an_eMac_to_use_as_an_external_monitor
+
+This project was inspired by
 a thread on macrumors by patriciooholegu
 
 http://forums.macrumors.com/threads/i-have-decided-to-hack-emacs-crt-to-work-wit
